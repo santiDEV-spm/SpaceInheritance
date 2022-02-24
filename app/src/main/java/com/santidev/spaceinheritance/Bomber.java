@@ -6,6 +6,7 @@ public class Bomber extends SpaceShip {
 
     public Bomber() {
         super(100);
+        Log.i("Location","Bomber constructor");
     }
 
     @Override

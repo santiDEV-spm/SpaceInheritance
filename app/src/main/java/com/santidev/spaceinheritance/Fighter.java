@@ -6,6 +6,7 @@ public class Fighter extends SpaceShip{
 
     public Fighter() {
         super(500);
+        Log.i("Location","Fighter constructor");
     }
 
     @Override
